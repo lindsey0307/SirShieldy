@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallController.cs" />
     <Compile Include="Assets\Scripts\CameraTrigger.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\PaddleController.cs" />
     <Reference Include="Cinemachine">
       <HintPath>/Users/lindseypoad/code/Sir Shieldy/Library/ScriptAssemblies/Cinemachine.dll</HintPath>

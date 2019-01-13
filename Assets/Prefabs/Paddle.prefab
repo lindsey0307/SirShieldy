@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61017054504099578}
   - component: {fileID: 50401283553480946}
   - component: {fileID: 114503668784493378}
+  - component: {fileID: 95451078527589050}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -75,9 +76,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0029277802, y: -0.02365148}
+  m_Offset: {x: -0.1360712, y: -0.02365148}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.7083334, y: 0.16666667, z: 0.7083334, w: 0.625}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2.6666667, y: 2.6666667}
     newSize: {x: 0.84, y: 0.84}
@@ -86,8 +87,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2514992, y: 1.4445641}
+  m_Size: {x: 0.9735012, y: 1.4445641}
   m_EdgeRadius: 0
+--- !u!95 &95451078527589050
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059748790448936}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a8fc9d9698f994469bba45e84c8f04ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114503668784493378
 MonoBehaviour:
   m_ObjectHideFlags: 1

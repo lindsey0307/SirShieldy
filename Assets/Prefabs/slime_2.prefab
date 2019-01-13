@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4368424586683938}
   - component: {fileID: 212046881646093232}
   - component: {fileID: 61780183431747636}
+  - component: {fileID: 95201912506498548}
+  - component: {fileID: 114053133604156340}
   m_Layer: 0
   m_Name: slime_2
   m_TagString: Untagged
@@ -66,6 +68,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8777647, y: 0.8967465}
   m_EdgeRadius: 0
+--- !u!95 &95201912506498548
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147830163929510}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2e082053ccf014609abc5cd9cdb7f71d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114053133604156340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147830163929510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7eac495cb9a49ef9c4ba7e6d234731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212046881646093232
 SpriteRenderer:
   m_ObjectHideFlags: 1
