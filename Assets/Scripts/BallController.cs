@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour {
 
@@ -12,8 +13,12 @@ public class BallController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        //TO DO: write real game manager with game restart
+        if (transform.position.x < -10f){
+            SceneManager.LoadScene("Main", LoadSceneMode.Single);
+        }
+
+    }
 
     void OnCollisionEnter2D(Collision2D col){
 
